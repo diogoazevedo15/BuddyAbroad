@@ -1,0 +1,81 @@
+/*
+ * App Global CSS
+ * ----------------------------------------------------------------------------
+ * Put style rules here that you want to apply globally. These styles are for
+ * the entire app and not just one component. Additionally, this file can be
+ * used as an entry point to import other CSS/Sass files to be included in the
+ * output CSS.
+ * For more information on global stylesheets, visit the documentation:
+ * https://ionicframework.com/docs/layout/global-stylesheets
+ */
+
+/* Core CSS required for Ionic components to work properly */
+@import "~@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+@import '~@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url('assets/fonts/GothamBold.ttf');
+}
+
+@font-face {
+  font-family: 'Gotham Bold Italic';
+  src: url('assets/fonts/GothamBoldItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('assets/fonts/GothamBook.ttf');
+}
+
+@font-face {
+  font-family: 'Gotham Book Italic';
+  src: url('assets/fonts/GothamBookItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Gotham Light';
+  src: url('assets/fonts/GothamLight.ttf');
+}
+
+@font-face {
+  font-family: 'Gotham Light Italic';
+  src: url('assets/fonts/GothamLightItalic.ttf');
+}
+
+@font-face {
+  font-family: 'Gotham Medium';
+  src: url('assets/fonts/GothamMedium.ttf');
+}
+
+@font-face {
+  font-family: 'Gotham Medium Italic';
+  src: url('assets/fonts/GothamMediumItalic.ttf');
+}
+
+* {
+  --font-family-base: 'Gotham Book';
+}
+
+.ion-color-group {
+  --ion-color-group: #e84a5f;
+  --ion-color-group-rgb: 232,74,95;
+  --ion-color-group-contrast: #ffffff;
+  --ion-color-group-contrast-rgb: 255,255,255;
+  --ion-color-group-shade: #cc4154;
+  --ion-color-group-tint: #ea5c6f;
+}
+
+
